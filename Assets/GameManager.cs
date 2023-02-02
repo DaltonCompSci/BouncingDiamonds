@@ -6,14 +6,14 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI Score;
     private int score = 0;
 
 
     public void IncScore(int nums)
     {
         score += nums;
-        scoreText.text = "Score : " + score;
+        Score.text = "Score : " + score;
     }
 
 
