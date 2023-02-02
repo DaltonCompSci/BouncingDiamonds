@@ -6,6 +6,7 @@ TagManager:
   tags:
   - rectangles
   - Rectangles
+  - boundary
   layers:
   - Default
   - TransparentFX
