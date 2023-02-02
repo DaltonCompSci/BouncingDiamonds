@@ -19,7 +19,19 @@ public class ScoreScript : MonoBehaviour
     }
 
 
+    private void OnTriggerEnter2D(Collider2D rectangles)
+    {
 
+        if(rectangles.tag == "Rectangles")
+        {
+
+            Scorenum++;
+            scoreText.text = "Score:" + Scorenum;
+
+        }
+
+
+    }
 
 
 
