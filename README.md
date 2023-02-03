@@ -3,8 +3,6 @@
 
 The intent of our game is to keep the diamond in the air by bouncing it off of the platform
 
-Our game has no narrative
-
 The main mechanic in this game is translating mouse input to position the platform in order to keep the diamond in the air. Additionally, we use physics and collisions to determine when the diamond collides with the platform or walls
 
 We used a picture of a diamond to represent the diamond
