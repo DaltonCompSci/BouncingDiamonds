@@ -5,7 +5,7 @@ using TMPro;
 
 public class ScoreScript : MonoBehaviour
 {
-
+    float speed = 10;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI boundaryText;
     private int Scorenum;
@@ -34,7 +34,10 @@ public class ScoreScript : MonoBehaviour
                 sentinel = true;
             }
         }
+        GetComponent<Rigidbody2D>().velocity = Random.onUnitSphere* speed;
     }
+    
+    
 
 
 }
