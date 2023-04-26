@@ -14,3 +14,5 @@ Art attributions:
 https://opengameart.org/content/diamond
 
 We worked on the vast majority of this project together at the same time, so there weren't many notable individual contributions. Anytime we encountered issues or bugs with our project, we worked to solve them together. This also goes for incorporating new ideas into this project. 
+
+Our game's setting is that of someone who has dropped their family heirloom. The User must do there best to make sure that they heirloom doesn't get lost in the forrest below.
